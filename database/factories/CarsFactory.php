@@ -21,14 +21,14 @@ class CarsFactory extends Factory
     {
         return [
             'company'=>fake()->company(),
-            'model'=>fake()->bloodGroup(),
+            'model'=>fake()->tld(),
             'mileage'=>fake()->randomNumber(5),
             'price'=>fake()->randomNumber(5),
             'year'=>fake()->year(),
             'color'=>fake()->colorName(),
             'location'=>fake()->city(),
-            'engine'=>"2.0 4 Cylinder,3.0 6 Cylinder",
-            'gearbox'=>'automatic,manual',
+            'engine'=> "2.0 4 Cylinder",
+            'gearbox'=>'automatic',
             'fuel'=>'petrol',
             'created_at'=>Carbon::now()->diffForHumans(),
         ];
