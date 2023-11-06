@@ -33,7 +33,7 @@ class StoreCarsRequest extends FormRequest
             'fuel'=>['required','in:Petrol,Electric,Plug In Hybrid'],
             'location'=>['required','max:30','min:7'],
             'feauters'=>['nullable'],
-            'images'=>['nullable'],
+            'images'=>['nullable','mimes:jpeg,png,jpg,gif'],
             'description'=>['required']
         ];
     }
