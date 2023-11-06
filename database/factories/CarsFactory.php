@@ -21,7 +21,7 @@ class CarsFactory extends Factory
     {
         return [
             'company'=>fake()->company(),
-            'model'=>fake()->tld(),
+            'model'=>fake()->randomDigit (),
             'mileage'=>fake()->randomNumber(5),
             'price'=>fake()->randomNumber(5),
             'year'=>fake()->year(),
