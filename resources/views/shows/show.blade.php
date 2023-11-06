@@ -161,5 +161,6 @@
                 <p>There is currently no car</p>
             </div>
         @endunless
+        {{ $cars->links() }}
     </div>
 </x-layout>
