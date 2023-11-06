@@ -1,5 +1,5 @@
-<img src="">
-What is car sale project?
+
+## What is car sale project?
 Car sale project is a simple car shopping laravel project with some cool functionalities
 ## Features
 
