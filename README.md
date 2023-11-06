@@ -1,4 +1,4 @@
-
+![carsalemain](https://github.com/SergeantMamad/car-sell/assets/89344904/5c692397-fb81-4a1b-a468-8177d21b29c0)
 ## What is car sale project?
 Car sale project is a simple car shopping laravel project with some cool functionalities
 ## Features
@@ -16,7 +16,7 @@ first,make sure to install composer first and then make sure to run migrations i
 here is artisan migration command :
 <pre><code>php artisan migrate</code></pre>
 you can also use the seeders to have roles and have some dummy ads:
-<pre> <code> php artisan migrate:refresh --seed </code> </pre>
+<pre><code>php artisan migrate:refresh --seed</code></pre>
 after you run seeders you can enter admin dashboard using login panel and this credentials
 you can also use sail if you are using docker
 ### Link public storage
