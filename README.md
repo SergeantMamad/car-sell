@@ -3,7 +3,7 @@
 Car sale project is a simple car shopping laravel project with some cool functionalities
 ## Features
 
-- admin and user dashboard for better management
+- Admin and user dashboard for better management
 - Multi picture upload
 - Seprate page for each ad
 - Custom made template
